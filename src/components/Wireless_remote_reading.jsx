@@ -23,7 +23,7 @@ export default function Wireless_remote_reading(){
   </div>
   <div className="navbar-center">
  <a className="w-fit h-fit btn btn-ghost text-xs">
-    <a href="/"><img src="src/assets/images/majinet logo.png" alt="Logo"/></a>
+    <a href="/"><img src="/images/majinet logo.png" alt="Logo"/></a>
     </a>
   </div>
 
@@ -33,7 +33,7 @@ export default function Wireless_remote_reading(){
 </div>
     
 <div className="">
-    <embed className="w-full h-lvh  border-none" src="src/assets/pdfs/Wireless Remote Reading Solution new.pdf"></embed>    
+    <embed className="w-full h-lvh  border-none" src="/pdfs/Wireless Remote Reading Solution new.pdf"></embed>    
    </div>
     <br/>
 

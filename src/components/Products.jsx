@@ -23,7 +23,7 @@ export default function Products(){
   </div>
   <div className="navbar-center">
  <a className="w-fit h-fit btn btn-ghost text-xs">
-    <a href="/"><img src="src/assets/images/majinet logo.png" alt="Logo"/></a>
+    <a href="/"><img src="/images/majinet logo.png" alt="Logo"/></a>
     </a>
   </div>
 
@@ -40,7 +40,7 @@ export default function Products(){
     <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
     {/* Product 1  */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/shengda white.png" alt="Shengda Ultrasonic Water Meter" /></figure>
+  <figure><img src="/images/shengda white.png" alt="Shengda Ultrasonic Water Meter" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Shengda Ultrasonic Water Meter
@@ -51,7 +51,7 @@ export default function Products(){
 </div>
     {/* Product 2 */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/Beco X.png" alt="BECO X Ultrasonic Water Meter" /></figure>
+  <figure><img src="/images/Beco X.png" alt="BECO X Ultrasonic Water Meter" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     BECO X Ultrasonic Water Meter
@@ -62,7 +62,7 @@ export default function Products(){
 </div>
     {/* Product 3 */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/Beco Ultrasonnic .png" alt="BECO Y Ultrasonic Water Meter" /></figure>
+  <figure><img src="/images/Beco Ultrasonnic .png" alt="BECO Y Ultrasonic Water Meter" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     BECO Y Ultrasonic Water Meter
@@ -74,7 +74,7 @@ export default function Products(){
 
     {/* Product 4 */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/B 39.png" alt="Product 1" /></figure>
+  <figure><img src="/images/B 39.png" alt="Product 1" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     B-39 VW-M bulk Ultrasonic Water Meter
@@ -86,7 +86,7 @@ export default function Products(){
 
     {/* Product 5 */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/b 95.png" alt="B95 VPW Valve Control _ Prepaid Ultrasonic Water Meter" /></figure>
+  <figure><img src="/images/b 95.png" alt="B95 VPW Valve Control _ Prepaid Ultrasonic Water Meter" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     B95 VPW Valve Control _ Prepaid Ultrasonic Water Meter

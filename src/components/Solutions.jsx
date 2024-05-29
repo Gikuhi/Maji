@@ -23,7 +23,7 @@ export default function Solutions(){
   </div>
   <div className="navbar-center">
  <a className="w-fit h-fit btn btn-ghost text-xs">
-    <a href="/"><img src="src/assets/images/majinet logo.png" alt="Logo"/></a>
+    <a href="/"><img src="/images/majinet logo.png" alt="Logo"/></a>
     </a>
   </div>
 
@@ -40,7 +40,7 @@ export default function Solutions(){
     <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
     {/* Product 1  */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/cost 2.png" alt="Product 1" /></figure>
+  <figure><img src="/images/cost 2.png" alt="Product 1" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Cost Efficiency Metering Solution
@@ -51,7 +51,7 @@ export default function Solutions(){
 </div>
     {/* Product 2 */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/prepaid.png" alt="Product 1" /></figure>
+  <figure><img src="/images/prepaid.png" alt="Product 1" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Prepayment Metering Solution
@@ -62,7 +62,7 @@ export default function Solutions(){
 </div>
     {/* Product 3 */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/bulk remote.png" alt="Product 1" /></figure>
+  <figure><img src="/images/bulk remote.png" alt="Product 1" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Bulk Meter Remote Reading Solution
@@ -74,7 +74,7 @@ export default function Solutions(){
 
     {/* Product 4 */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/wired remote.png" alt="Product 1" /></figure>
+  <figure><img src="/images/wired remote.png" alt="Product 1" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Wired Remote Reading Solution
@@ -86,7 +86,7 @@ export default function Solutions(){
 
     {/* Product 5 */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/remote.pnng.jpeg" alt="B95 VPW Valve Control _ Prepaid Ultrasonic Water Meter" /></figure>
+  <figure><img src="/images/remote.pnng.jpeg" alt="B95 VPW Valve Control _ Prepaid Ultrasonic Water Meter" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Wireless Remote Reading Solution

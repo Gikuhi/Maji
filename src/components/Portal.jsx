@@ -18,7 +18,7 @@ export default function Portal(){
     {/* Company Header */}
     <div className="content-center items-center">
         <div className="h-auto w-5/5 mt-2 mb-0 items-center">
-            <a href="/"><img className="w-2/5 h-2/5 mx-96" src="src/assets/images/portal logo.png" alt="Company Logo"/></a>
+            <a href="/"><img className="w-2/5 h-2/5 mx-96" src="/images/portal logo.png" alt="Company Logo"/></a>
         </div> 
         <div className="company-paragraph">
             <h1 className="text-2xl p-2 text-center text-base"><b>Majinet Water Meter Remote Reading System</b></h1>

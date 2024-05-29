@@ -23,7 +23,7 @@ export default function Contact(){
   </div>
   <div className="navbar-center">
  <a className="w-fit h-fit btn btn-ghost text-xs">
-    <a href="/"><img src="src/assets/images/majinet logo.png" alt="Logo"/></a>
+    <a href="/"><img src="/images/majinet logo.png" alt="Logo"/></a>
     </a>
   </div>
 

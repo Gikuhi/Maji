@@ -24,7 +24,7 @@ export default function B_39vw(){
   </div>
   <div className="navbar-center">
  <a className="w-fit h-fit btn btn-ghost text-xs">
-    <a href="/"><img src="src/assets/images/majinet logo.png" alt="Logo"/></a>
+    <a href="/"><img src="/images/majinet logo.png" alt="Logo"/></a>
     </a>
   </div>
 
@@ -34,7 +34,7 @@ export default function B_39vw(){
 </div>
 
     <div className="">
-    <embed className="w-full h-lvh  border-none" src="src/assets/pdfs/B39 VW-M bulk Ultrasonic Water Meter new.pdf"></embed>    
+    <embed className="w-full h-lvh  border-none" src="/pdfs/B39 VW-M bulk Ultrasonic Water Meter new.pdf"></embed>    
    </div>
     <br/>
     

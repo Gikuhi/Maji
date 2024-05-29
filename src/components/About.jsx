@@ -58,7 +58,7 @@ export default function About(){
   </div>
   <div className="navbar-center">
  <a className="w-fit h-fit btn btn-ghost text-xs">
-    <a href="/"><img src="src/assets/images/majinet logo.png" alt="Logo"/></a>
+    <a href="/"><img src="/images/majinet logo.png" alt="Logo"/></a>
     </a>
   </div>
 
@@ -96,7 +96,7 @@ export default function About(){
         {/* Our mission */}
     <div className="bg-sky-800">
     <div className="">
-    <img src="src/assets/images/about us&mission2.png" alt=""></img>
+    <img src="/images/about us&mission2.png" alt=""></img>
     {/* <img src="src/assets/images/mission photo.png" alt=""/> */}
     </div>
     </div>

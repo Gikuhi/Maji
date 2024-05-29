@@ -25,7 +25,7 @@ export default function Home(){
   </div>
   <div className="navbar-center">
  <a className="w-fit h-fit btn btn-ghost text-xs">
-    <a href="/"><img src="src/assets/images/majinet logo.png" alt="Logo"/></a>
+    <a href="/"><img src="/images/majinet logo.png" alt="Logo"/></a>
     </a>
   </div>
 
@@ -37,14 +37,14 @@ export default function Home(){
     {/* Carousel */}
     <div className="carousel w-full">
   <div id="slide1" className="carousel-item relative w-full">
-    <img src="src/assets/images/carousel 1.1.png .jpeg" className="w-full" />
+    <img src="/images/carousel 1.1.png .jpeg" className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide2" className="btn btn-circle">❮</a> 
       <a href="#slide2" className="btn btn-circle">❯</a>
     </div>
   </div> 
   <div id="slide2" className="carousel-item relative w-full">
-    <img src="src/assets/images/carousel 2.1.png" className="w-full" />
+    <img src="/images/carousel 2.1.png" className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide1" className="btn btn-circle">❮</a> 
       <a href="#slide1" className="btn btn-circle">❯</a>
@@ -63,7 +63,7 @@ export default function Home(){
           <a href="https://liquid.tech/">
           <img
             className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
-            src="src/assets/images/liquid.png"
+            src="/images/liquid.png"
             alt="Liquid Tech"
           />
           </a>
@@ -71,7 +71,7 @@ export default function Home(){
           <a href="https://www.shengdawatermeter.com/?gad_source=1&gclid=Cj0KCQiA2KitBhCIARIsAPPMEhK0EpBMWw6Hxi8iKO2en1WJdwfKKBm_kQSuTWkwac_BzrlqoS1jzaYaAm5rEALw_wcB">
           <img
             className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
-            src="src/assets/images/shengda.png"
+            src="/images/shengda.png"
             alt="Shengda Water Meter"
           />
           </a>
@@ -79,7 +79,7 @@ export default function Home(){
          <a href="https://www.netpaq.co.ke/">
           <img
             className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
-            src="src/assets/images/netpaq.png"
+            src="/images/netpaq.png"
             alt="Netpaq"
           />
           </a>
@@ -87,7 +87,7 @@ export default function Home(){
           <a href="https://www.safaricom.co.ke/">
           <img
             className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
-            src="src/assets/images/safcom.png"
+            src="/images/safcom.png"
             alt="Safaricom"
           />
           </a>
@@ -95,7 +95,7 @@ export default function Home(){
          <a href="https://www.bovetech.com/allproducts.php?gad_source=1&gclid=Cj0KCQiA2KitBhCIARIsAPPMEhLFLDpzRGfZtXGoR-IEwGax6DpoMsp1dLu7hZY-xSJezmZRMT3itUUaAv6DEALw_wcB">
           <img
             className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
-            src="src/assets/images/bove.png"
+            src="/images/bove.png"
             alt="Bove Tech"
           />
           </a>
@@ -103,7 +103,7 @@ export default function Home(){
           <a href="https://lomogantech.co.ke/">
           <img
             className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
-            src="src/assets/images/lomogan majinet.png"
+            src="/images/lomogan majinet.png"
             alt="Lomogan Tech"
           />
           </a>
@@ -122,7 +122,7 @@ export default function Home(){
     <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
     {/* Product 1  */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/shengda white.png" alt="Product 1" /></figure>
+  <figure><img src="/images/shengda white.png" alt="Product 1" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Shengda Ultrasonic Water Meter
@@ -133,7 +133,7 @@ export default function Home(){
 </div>
     {/* Product 2 */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/B 39.png" alt="Product 1" /></figure>
+  <figure><img src="/images/B 39.png" alt="Product 1" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     B-39 VW-M bulk Ultrasonic Water Meter
@@ -144,7 +144,7 @@ export default function Home(){
 </div>
     {/* Product 3 */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/Beco Ultrasonnic .png" alt="Product 1" /></figure>
+  <figure><img src="/images/Beco Ultrasonnic .png" alt="Product 1" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Beco Y Ultrasonic Water Meter
@@ -155,7 +155,7 @@ export default function Home(){
 </div>
     {/* Product 4 */}
     <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="src/assets/images/Beco X.png" alt="Product 1" /></figure>
+  <figure><img src="/images/Beco X.png" alt="Product 1" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Beco X Ultrasonic Water Meter
@@ -170,7 +170,7 @@ export default function Home(){
     <br/>
 
     <div>
-    <img src="src/assets/images/about us index.png" alt="" height="10%" width="100%"/>
+    <img src="/images/about us index.png" alt="" height="10%" width="100%"/>
     </div>
 
     <br/>
