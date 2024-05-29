@@ -1,3 +1,5 @@
+import { get } from '@vercel/edge-config';
+
 export default function Home(){
     return<>
     {/* Navbar */}

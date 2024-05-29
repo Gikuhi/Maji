@@ -11,7 +11,7 @@ const targets = [
 const maxCount = Math.max(...targets.map(target => target.count));
 
 // Function to animate count-up effect
-function animateCountUp(target, duration) {
+export function animateCountUp(target, duration) {
   let currentCount = 0;
   const increment = Math.ceil(target.count / (duration / 10));
 
@@ -117,7 +117,7 @@ export default function About(){
                 </dt>
                 <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
                   aria-describedby="item-1" id="homesCount">
-                  0
+                  21K+
                 </dd>
               </div>
               <div
@@ -127,7 +127,7 @@ export default function About(){
                 </dt>
                 <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
                   aria-describedby="item-1" id="engagementsCount">
-                  0
+                 100K+
                 </dd>
               </div>
               <div
@@ -137,7 +137,7 @@ export default function About(){
                 </dt>
                 <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
                   aria-describedby="item-1" id="businessCount">
-                  0
+                  10K+
                 </dd>
               </div>
               <div
@@ -147,7 +147,7 @@ export default function About(){
                 </dt>
                 <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
                   id="partnersCount">
-                  0
+                  8+
                 </dd>
               </div>
               <div
@@ -157,7 +157,7 @@ export default function About(){
                 </dt>
                 <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
                   id="instructorsCount">
-                  0
+                  1K+
                 </dd>
               </div>
             </dl>
@@ -169,7 +169,7 @@ export default function About(){
 </div> 
 
     {/* Additional content pane  */}
-    <div className="bg-amber-500 w-lvw h-lvw">
+    <div className="bg-amber-500 p-10 text-base-content">
       <h4 className="text-lg text-center pt-3  ">From experiment to global movement</h4>
       <p className="text-base ml-3 pb-3"> Long-range telemetry technology is simple to deploy, 
         with no technical training or network configuration necessary. 

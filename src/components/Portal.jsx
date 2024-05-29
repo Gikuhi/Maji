@@ -28,10 +28,10 @@ export default function Portal(){
     </div>
 
     {/* Login container */}
-    <div className="">
+    <div className="text-base-content">
         
         <form method='POST' action='#'>
-            <div className="bg-white px-0 py-4 w-11/12 rounded-xl w-screen shadow-xl max-w-sm mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <div className="bg-white text-base-content p-40 py-6 rounded-xl w-screen max-w-sm mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                 <div className="space-y-1">
                     <h1 className="text-center text-xl font-semibold text-gray-600">Estate Management</h1>
                     <hr/>
