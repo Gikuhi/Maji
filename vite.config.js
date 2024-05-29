@@ -6,15 +6,3 @@ export default defineConfig({
   plugins: [react()],
 })
 
-module.exports = {
-  plugins: [
-    {
-      name: '@vite-plugins/react',
-      configure: ({ redirect }) => {
-        redirect.setup({
-          to: 'index.html',
-        })
-      },
-    },
-  ],
-}
