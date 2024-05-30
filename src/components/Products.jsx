@@ -24,14 +24,21 @@ export default function Products(){
     </div>
     
     {/* Laptop Menu */}
-    <div className="hidden lg:flex space-x-4">
-      <a href="/" className="menu-text">Home</a>
-      <a href="/products" className="menu-text">Products</a>
-      <a href="/solutions" className="menu-text">Solutions</a>
-      <a href="/partners" className="menu-text">Partners</a>
-      <a href="/case_study" className="menu-text">Case Study</a>
-      <a href="/about" className="menu-text">About</a>
-      <a href="/contact" className="menu-text">Contact</a>
+    <div className="dropdown hidden lg:flex space-x-4">
+    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
+        </svg>
+      </div>
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a href="/"><span className="menu-text">Home</span></a></li>
+        <li><a href="/products"><span className="menu-text">Products</span></a></li>
+        <li><a href="/solutions"><span className="menu-text">Solutions</span></a></li>
+        <li><a href="/partners"><span className="menu-text">Partners</span></a></li>
+        <li><a href="/case_study"><span className="menu-text">Case Study</span></a></li>
+        <li><a href="/about"><span className="menu-text">About</span></a></li>
+        <li><a href="/contact"><span className="menu-text">Contact</span></a></li>
+      </ul>
     </div>
   </div>
 

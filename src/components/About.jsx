@@ -36,13 +36,16 @@ export default function About(){
 
   document.title = "About"
     return<>
-    {/* Navbar */}
-    <div className="navbar bg-base-100">
+   {/* Navbar */}
+<div className="navbar bg-base-100">
   <div className="navbar-start">
 
-    <div className="dropdown">
+    {/* Mobile Dropdown Menu */}
+    <div className="dropdown lg:hidden">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-15 w-15" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
+        </svg>
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         <li><a href="/"><span className="menu-text">Home</span></a></li>
@@ -52,54 +55,66 @@ export default function About(){
         <li><a href="/case_study"><span className="menu-text">Case Study</span></a></li>
         <li><a href="/about"><span className="menu-text">About</span></a></li>
         <li><a href="/contact"><span className="menu-text">Contact</span></a></li>
-        {/* <li><a href="/portal"><span className="menu-text">System Portal</span></a></li> */}
+      </ul>
+    </div>
+    
+    {/* Laptop Menu */}
+    <div className="dropdown hidden lg:flex space-x-4">
+    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
+        </svg>
+      </div>
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a href="/"><span className="menu-text">Home</span></a></li>
+        <li><a href="/products"><span className="menu-text">Products</span></a></li>
+        <li><a href="/solutions"><span className="menu-text">Solutions</span></a></li>
+        <li><a href="/partners"><span className="menu-text">Partners</span></a></li>
+        <li><a href="/case_study"><span className="menu-text">Case Study</span></a></li>
+        <li><a href="/about"><span className="menu-text">About</span></a></li>
+        <li><a href="/contact"><span className="menu-text">Contact</span></a></li>
       </ul>
     </div>
   </div>
+
   <div className="navbar-center">
- <a className="w-fit h-fit btn btn-ghost text-xs">
-    <a href="/"><img src="/images/majinet logo.png" alt="Logo"/></a>
+    <a className="w-fit h-fit btn btn-ghost text-xs">
+      <a href="/"><img src="/images/majinet logo.png" alt="Logo" /></a>
     </a>
   </div>
 
-  <div className="navbar-end ">
-  <a href="/portal"><span className="menu-text text-lg">System Portal</span></a>
+  <div className="navbar-end">
+    <a href="/portal"><span className="menu-text text-lg">System Portal</span></a>
   </div>
 </div>
 
 
     {/* About Us Pane */}
-    <section className="bg-gray-100">
-    <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-            <div className="max-w-lg">
-                <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">About Us</h2>
-                <p className="mt-4 text-gray-600 text-lg">
-                Majinet Smart Water Meter Systems Limited is a Kenyan company that specializes in supply installation support and maintenance of smart water meters. As the word “smart” implies, our
-                meters are digital Internet of Things (IoT) devices and the reading is automated and done remotely via our own LORAWAN network, Safaricom NBIOT , Liquid Telecom LPWAN Sigfox network as well
-                as other carriers available. Our ISO certified smart water meters transmit water consumption data remotely and are battery powered to last up to 16 years.
-                <br/><br/><br/>
-                Smart Ultrasonic water metering is the latest technology in the world of water management that <br/> now automates water management and consumption data bringing about efficiency and accuracy.
-                For years, the mechanical meter has been the natural choice. But in today's digital world where the
-                need for communication and connectivity increases by the day, Ultra Sonic Smart metering is the <br/> future and the advantages are many. The ultrasonic meter has no moving parts, contrary to the
-                mechanical meters that rely on a moving pendant.
-            
-                    </p>
-            </div>
-            <div class="mt-12 md:mt-0">
-                <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86" alt="About Us Image" class="object-cover rounded-lg shadow-md"/>
-            </div>
-        </div>
+<section className="bg-gray-100">
+  <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+      <div className="max-w-lg mx-auto md:mx-0">
+        <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">About Us</h2>
+        <p className="mt-4 text-gray-600 text-lg">
+          Majinet Smart Water Meter Systems Limited is a Kenyan company that specializes in supply installation support and maintenance of smart water meters. As the word “smart” implies, our meters are digital Internet of Things (IoT) devices and the reading is automated and done remotely via our own LORAWAN network, Safaricom NBIOT, Liquid Telecom LPWAN Sigfox network as well as other carriers available. Our ISO certified smart water meters transmit water consumption data remotely and are battery powered to last up to 16 years.
+          <br /><br /><br />
+          Smart Ultrasonic water metering is the latest technology in the world of water management that <br /> now automates water management and consumption data bringing about efficiency and accuracy. For years, the mechanical meter has been the natural choice. But in today's digital world where the need for communication and connectivity increases by the day, Ultra Sonic Smart metering is the <br /> future and the advantages are many. The ultrasonic meter has no moving parts, contrary to the mechanical meters that rely on a moving pendant.
+        </p>
+      </div>
+      <div className="mt-12 md:mt-0 mx-auto md:mx-0">
+        <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86" alt="About Us Image" className="object-cover rounded-lg shadow-md w-full h-full"/>
+      </div>
     </div>
+  </div>
 </section>
 
-        {/* Our mission */}
-    <div className="bg-sky-800">
-    <div className="">
-    <img src="/images/about us&mission2.png" alt=""></img>
-    {/* <img src="src/assets/images/mission photo.png" alt=""/> */}
-    </div>
-    </div>
+{/* Our mission */}
+<div className="bg-sky-800 py-8">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <img src="/images/about us&mission2.png" alt="Our Mission" className="w-full object-cover rounded-lg shadow-md"/>
+  </div>
+</div>
+
 
         {/* Counters */}
         <div className="dark:bg-gray-900">
@@ -175,6 +190,7 @@ export default function About(){
         with no technical training or network configuration necessary. 
         <br/>Installation time is equivalent to that of standard water meters.</p>
     </div>
+    <br/>
 
       {/* Footer */}
       <footer className="footer p-10 bg-base-300 text-base-content">
