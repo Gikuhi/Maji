@@ -138,7 +138,7 @@ export default function Home(){
     <h2 className="card-title">
     B-39 VW-M bulk Ultrasonic Water Meter
     </h2>
-    <a href="/b_39_vw" target="_blank" class="btn btn-primary">Read More</a>
+    <a href="/b_39vw" target="_blank" class="btn btn-primary">Read More</a>
 
   </div>
 </div>
