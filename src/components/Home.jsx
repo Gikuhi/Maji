@@ -8,10 +8,10 @@ export default function Home(){
   <div className="navbar-start">
 
     <div className="dropdown">
-      <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-15 w-15" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+      <div tabIndex={0} role="button" className="btn btn-ghost btn-circle ">
+        <svg xmlns="http://www.w3.org/2000/svg" className="lg:h-15 lg:w-15 sm:h-11 sm:w-11" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
       </div>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className="menu lg:menu-sm sm:menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         <li><a href="/"><span className="menu-text">Home</span></a></li>
         <li><a href="/products"><span className="menu-text">Products</span></a></li>
         <li><a href="/solutions"><span className="menu-text">Solutions</span></a></li>
@@ -30,7 +30,7 @@ export default function Home(){
   </div>
 
   <div className="navbar-end ">
-  <a href="/portal"><span className="menu-text text-lg">System Portal</span></a>
+  <a href="/portal"><span className="menu-text lg:text-lg md:text-md sm:text-sm">System Portal</span></a>
   </div>
 </div>
     
@@ -54,15 +54,15 @@ export default function Home(){
     <br/>
     <br/>
     {/* Partners Section */}
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-16 sm:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
           Our Partners
         </h2>
-        <div className="mx-auto mt-10 grid max-w-lg grid-cols-6 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
+        <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-10 sm:max-w-md sm:grid-cols-2 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
           <a href="https://liquid.tech/">
           <img
-            className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
+            className="col-span-2 max-h-24 w-full sm:max-h-12 sm:w-full object-contain lg:col-span-1"
             src="/images/liquid.png"
             alt="Liquid Tech"
           />
@@ -113,16 +113,16 @@ export default function Home(){
 
     {/* Explore Products */}
     <div className="bg-white py-24 sm:py-0" >
-    <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto max-w-md sm:max-w-xl px-4 sm:px-6 lg:px-8">
     <a href="/products"> <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
           Explore Our Products
         </h2></a>
     </div>
 
-    <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+    <div className="mx-auto mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:max-w-none lg:grid-cols-4">
     {/* Product 1  */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/shengda white.png" alt="Product 1" /></figure>
+    <div className="card bg-base-100 shadow-xl">
+  <figure><img src="/images/shengda white.png" alt="Shengda Ultrasonic Water Meter" className="w-full h-auto" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Shengda Ultrasonic Water Meter
@@ -132,8 +132,8 @@ export default function Home(){
   </div>
 </div>
     {/* Product 2 */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/B 39.png" alt="Product 1" /></figure>
+    <div className="card bg-base-100 shadow-xl">
+  <figure><img src="/images/B 39.png" alt="B-39 VW-M bulk Ultrasonic Water Meter" className="w-full h-auto"/></figure>
   <div className="card-body">
     <h2 className="card-title">
     B-39 VW-M bulk Ultrasonic Water Meter
@@ -143,8 +143,8 @@ export default function Home(){
   </div>
 </div>
     {/* Product 3 */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/Beco Ultrasonnic .png" alt="Product 1" /></figure>
+    <div className="card bg-base-100 shadow-xl">
+  <figure><img src="/images/Beco Ultrasonnic .png" alt="Beco Y Ultrasonic Water Meter" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Beco Y Ultrasonic Water Meter
@@ -154,8 +154,8 @@ export default function Home(){
   </div>
 </div>
     {/* Product 4 */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/Beco X.png" alt="Product 1" /></figure>
+    <div className="card bg-base-100 shadow-xl">
+  <figure><img src="/images/Beco X.png" alt="Beco X Ultrasonic Water Meter" /></figure>
   <div className="card-body">
     <h2 className="card-title">
     Beco X Ultrasonic Water Meter
@@ -170,7 +170,7 @@ export default function Home(){
     <br/>
 
     <div>
-    <img src="/images/about us index.png" alt="" height="10%" width="100%"/>
+    <img src="/images/about us index.png" alt="About Us" className="w-full h-auto"/>
     </div>
 
     <br/>

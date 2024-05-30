@@ -1,13 +1,16 @@
 export default function Products(){
   document.title = "Products"
     return<>
-    {/* Navbar */}
-    <div className="navbar bg-base-100">
+{/* Navbar */}
+<div className="navbar bg-base-100">
   <div className="navbar-start">
 
-    <div className="dropdown">
+    {/* Mobile Dropdown Menu */}
+    <div className="dropdown lg:hidden">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-15 w-15" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
+        </svg>
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         <li><a href="/"><span className="menu-text">Home</span></a></li>
@@ -17,86 +20,92 @@ export default function Products(){
         <li><a href="/case_study"><span className="menu-text">Case Study</span></a></li>
         <li><a href="/about"><span className="menu-text">About</span></a></li>
         <li><a href="/contact"><span className="menu-text">Contact</span></a></li>
-        {/* <li><a href="/portal"><span className="menu-text">System Portal</span></a></li> */}
       </ul>
     </div>
+    
+    {/* Laptop Menu */}
+    <div className="hidden lg:flex space-x-4">
+      <a href="/" className="menu-text">Home</a>
+      <a href="/products" className="menu-text">Products</a>
+      <a href="/solutions" className="menu-text">Solutions</a>
+      <a href="/partners" className="menu-text">Partners</a>
+      <a href="/case_study" className="menu-text">Case Study</a>
+      <a href="/about" className="menu-text">About</a>
+      <a href="/contact" className="menu-text">Contact</a>
+    </div>
   </div>
+
   <div className="navbar-center">
- <a className="w-fit h-fit btn btn-ghost text-xs">
-    <a href="/"><img src="/images/majinet logo.png" alt="Logo"/></a>
+    <a className="w-fit h-fit btn btn-ghost text-xs">
+      <a href="/"><img src="/images/majinet logo.png" alt="Logo" /></a>
     </a>
   </div>
 
-  <div className="navbar-end ">
-  <a href="/portal"><span className="menu-text text-lg">System Portal</span></a>
+  <div className="navbar-end">
+    <a href="/portal"><span className="menu-text text-lg">System Portal</span></a>
   </div>
 </div>
+
     
     <div className="font-semibold text-xl">
         <h2><b>Featured Products</b></h2>
     </div>
 
     {/* Products */}
-    <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-    {/* Product 1  */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/shengda white.png" alt="Shengda Ultrasonic Water Meter" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">
-    Shengda Ultrasonic Water Meter
-    </h2>
-    <a href="/shengda_ultrasonic" target="_blank" class="btn btn-primary">Read More</a>
-
-  </div>
-</div>
+<div className="mx-auto mt-10 grid max-w-xs grid-cols-1 gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+    {/* Product 1 */}
+    <div className="card w-full bg-base-100 shadow-xl">
+        <figure><img src="/images/shengda white.png" alt="Shengda Ultrasonic Water Meter" /></figure>
+        <div className="card-body">
+            <h2 className="card-title">
+                Shengda Ultrasonic Water Meter
+            </h2>
+            <a href="/shengda_ultrasonic" target="_blank" className="btn btn-primary">Read More</a>
+        </div>
+    </div>
     {/* Product 2 */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/Beco X.png" alt="BECO X Ultrasonic Water Meter" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">
-    BECO X Ultrasonic Water Meter
-    </h2>
-    <a href="/beco_x" target="_blank" class="btn btn-primary">Read More</a>
-
-  </div>
-</div>
+    <div className="card w-full bg-base-100 shadow-xl">
+        <figure><img src="/images/Beco X.png" alt="BECO X Ultrasonic Water Meter" /></figure>
+        <div className="card-body">
+            <h2 className="card-title">
+                BECO X Ultrasonic Water Meter
+            </h2>
+            <a href="/beco_x" target="_blank" className="btn btn-primary">Read More</a>
+        </div>
+    </div>
     {/* Product 3 */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/Beco Ultrasonnic .png" alt="BECO Y Ultrasonic Water Meter" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">
-    BECO Y Ultrasonic Water Meter
-    </h2>
-    <a href="/beco_y" target="_blank" class="btn btn-primary">Read More</a>
-
-  </div>
-</div>
-
+    <div className="card w-full bg-base-100 shadow-xl">
+        <figure><img src="/images/Beco Ultrasonnic .png" alt="BECO Y Ultrasonic Water Meter" /></figure>
+        <div className="card-body">
+            <h2 className="card-title">
+                BECO Y Ultrasonic Water Meter
+            </h2>
+            <a href="/beco_y" target="_blank" className="btn btn-primary">Read More</a>
+        </div>
+    </div>
     {/* Product 4 */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/B 39.png" alt="Product 1" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">
-    B-39 VW-M bulk Ultrasonic Water Meter
-    </h2>
-    <a href="/b_39vw" target="_blank" class="btn btn-primary">Read More</a>
-
-  </div>
-</div>
-
+    <div className="card w-full bg-base-100 shadow-xl">
+        <figure><img src="/images/B 39.png" alt="Product 1" /></figure>
+        <div className="card-body">
+            <h2 className="card-title">
+                B-39 VW-M bulk Ultrasonic Water Meter
+            </h2>
+            <a href="/b_39vw" target="_blank" className="btn btn-primary">Read More</a>
+        </div>
+    </div>
     {/* Product 5 */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/b 95.png" alt="B95 VPW Valve Control _ Prepaid Ultrasonic Water Meter" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">
-    B95 VPW Valve Control _ Prepaid Ultrasonic Water Meter
-    </h2>
-    <a href="/b_95vpw" target="_blank" class="btn btn-primary">Read More</a>
-
-  </div>
+    <div className="card w-full bg-base-100 shadow-xl">
+        <figure><img src="/images/b 95.png" alt="B95 VPW Valve Control _ Prepaid Ultrasonic Water Meter" /></figure>
+        <div className="card-body">
+            <h2 className="card-title">
+                B95 VPW Valve Control _ Prepaid Ultrasonic Water Meter
+            </h2>
+            <a href="/b_95vpw" target="_blank" className="btn btn-primary">Read More</a>
+        </div>
+    </div>
 </div>
+<br/>
 
-</div>
 
     
     {/* Footer */}
