@@ -32,71 +32,63 @@ export default function Solutions(){
   </div>
 </div>
     
-    <div className="font-semibold text-xl">
+<div className="font-semibold text-xl text-center mt-6 md:mt-10">
         <h2><b>Featured Solutions</b></h2>
-    </div>
+      </div>
 
-    {/* Products */}
-    <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-3 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-    {/* Product 1  */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/cost 2.png" alt="Product 1" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">
-    Cost Efficiency Metering Solution
-    </h2>
-    <a href="/cost_efficiency" target="_blank" class="btn btn-primary">Read More</a>
-
-  </div>
-</div>
-    {/* Product 2 */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/prepaid.png" alt="Product 1" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">
-    Prepayment Metering Solution
-    </h2>
-    <a href="/prepayment_metering" target="_blank" class="btn btn-primary">Read More</a>
-
-  </div>
-</div>
-    {/* Product 3 */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/bulk remote.png" alt="Product 1" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">
-    Bulk Meter Remote Reading Solution
-    </h2>
-    <a href="/bulk_meter_reading" target="_blank" class="btn btn-primary">Read More</a>
-
-  </div>
-</div>
-
-    {/* Product 4 */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/wired remote.png" alt="Product 1" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">
-    Wired Remote Reading Solution
-    </h2>
-    <a href="/wired_remote_reading" target="_blank" class="btn btn-primary">Read More</a>
-
-  </div>
-</div>
-
-    {/* Product 5 */}
-    <div className="card w-70 bg-base-100 shadow-xl">
-  <figure><img src="/images/remote.pnng.jpeg" alt="B95 VPW Valve Control _ Prepaid Ultrasonic Water Meter" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">
-    Wireless Remote Reading Solution
-    </h2>
-    <a href="/wireless_remote_reading" target="_blank" class="btn btn-primary">Read More</a>
-
-  </div>
-</div>
-
-</div>
+      {/* Products */}
+      <div className="mx-auto mt-10 grid max-w-xs sm:max-w-lg md:max-w-3xl lg:max-w-5xl grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
+        {/* Product 1  */}
+        <div className="card w-full bg-base-100 shadow-xl">
+          <figure><img src="/images/cost 2.png" alt="Product 1" /></figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Cost Efficiency Metering Solution
+            </h2>
+            <a href="/cost_efficiency" target="_blank" className="btn btn-primary">Read More</a>
+          </div>
+        </div>
+        {/* Product 2 */}
+        <div className="card w-full bg-base-100 shadow-xl">
+          <figure><img src="/images/prepaid.png" alt="Product 2" /></figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Prepayment Metering Solution
+            </h2>
+            <a href="/prepayment_metering" target="_blank" className="btn btn-primary">Read More</a>
+          </div>
+        </div>
+        {/* Product 3 */}
+        <div className="card w-full bg-base-100 shadow-xl">
+          <figure><img src="/images/bulk remote.png" alt="Product 3" /></figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Bulk Meter Remote Reading Solution
+            </h2>
+            <a href="/bulk_meter_reading" target="_blank" className="btn btn-primary">Read More</a>
+          </div>
+        </div>
+        {/* Product 4 */}
+        <div className="card w-full bg-base-100 shadow-xl">
+          <figure><img src="/images/wired remote.png" alt="Product 4" /></figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Wired Remote Reading Solution
+            </h2>
+            <a href="/wired_remote_reading" target="_blank" className="btn btn-primary">Read More</a>
+          </div>
+        </div>
+        {/* Product 5 */}
+        <div className="card w-full bg-base-100 shadow-xl">
+          <figure><img src="/images/remote.pnng.jpeg" alt="Product 5" /></figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Wireless Remote Reading Solution
+            </h2>
+            <a href="/wireless_remote_reading" target="_blank" className="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
 
     
     {/* Footer */}
