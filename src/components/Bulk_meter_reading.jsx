@@ -1,13 +1,16 @@
 export default function Bulk_meter_reading(){
   document.title = "Bulk Meter Reading"
     return <>
-    {/* Navbar */}
-    <div className="navbar bg-base-100">
+        {/* Navbar */}
+<div className="navbar bg-base-100">
   <div className="navbar-start">
 
-    <div className="dropdown">
+    {/* Mobile Dropdown Menu */}
+    <div className="dropdown lg:hidden">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-15 w-15" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
+        </svg>
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         <li><a href="/"><span className="menu-text">Home</span></a></li>
@@ -17,18 +20,36 @@ export default function Bulk_meter_reading(){
         <li><a href="/case_study"><span className="menu-text">Case Study</span></a></li>
         <li><a href="/about"><span className="menu-text">About</span></a></li>
         <li><a href="/contact"><span className="menu-text">Contact</span></a></li>
-        {/* <li><a href="/portal"><span className="menu-text">System Portal</span></a></li> */}
+      </ul>
+    </div>
+    
+    {/* Laptop Menu */}
+    <div className="dropdown hidden lg:flex space-x-4">
+    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
+        </svg>
+      </div>
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a href="/"><span className="menu-text">Home</span></a></li>
+        <li><a href="/products"><span className="menu-text">Products</span></a></li>
+        <li><a href="/solutions"><span className="menu-text">Solutions</span></a></li>
+        <li><a href="/partners"><span className="menu-text">Partners</span></a></li>
+        <li><a href="/case_study"><span className="menu-text">Case Study</span></a></li>
+        <li><a href="/about"><span className="menu-text">About</span></a></li>
+        <li><a href="/contact"><span className="menu-text">Contact</span></a></li>
       </ul>
     </div>
   </div>
+
   <div className="navbar-center">
- <a className="w-fit h-fit btn btn-ghost text-xs">
-    <a href="/"><img src="/images/majinet logo.png" alt="Logo"/></a>
+    <a className="w-fit h-fit btn btn-ghost text-xs">
+      <a href="/"><img src="/images/majinet logo.png" alt="Logo" /></a>
     </a>
   </div>
 
-  <div className="navbar-end ">
-  <a href="/portal"><span className="menu-text text-lg">System Portal</span></a>
+  <div className="navbar-end">
+    <a href="/portal"><span className="menu-text text-lg">System Portal</span></a>
   </div>
 </div>
     

@@ -2,12 +2,16 @@ export default function Partners(){
   document.title = "Partners"
     return<>
     {/* Navbar */}
-    <div className="navbar bg-base-100">
+   {/* Navbar */}
+<div className="navbar bg-base-100">
   <div className="navbar-start">
 
-    <div className="dropdown">
+    {/* Mobile Dropdown Menu */}
+    <div className="dropdown lg:hidden">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-15 w-15" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
+        </svg>
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         <li><a href="/"><span className="menu-text">Home</span></a></li>
@@ -17,18 +21,36 @@ export default function Partners(){
         <li><a href="/case_study"><span className="menu-text">Case Study</span></a></li>
         <li><a href="/about"><span className="menu-text">About</span></a></li>
         <li><a href="/contact"><span className="menu-text">Contact</span></a></li>
-        {/* <li><a href="/portal"><span className="menu-text">System Portal</span></a></li> */}
+      </ul>
+    </div>
+    
+    {/* Laptop Menu */}
+    <div className="dropdown hidden lg:flex space-x-4">
+    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
+        </svg>
+      </div>
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a href="/"><span className="menu-text">Home</span></a></li>
+        <li><a href="/products"><span className="menu-text">Products</span></a></li>
+        <li><a href="/solutions"><span className="menu-text">Solutions</span></a></li>
+        <li><a href="/partners"><span className="menu-text">Partners</span></a></li>
+        <li><a href="/case_study"><span className="menu-text">Case Study</span></a></li>
+        <li><a href="/about"><span className="menu-text">About</span></a></li>
+        <li><a href="/contact"><span className="menu-text">Contact</span></a></li>
       </ul>
     </div>
   </div>
+
   <div className="navbar-center">
- <a className="w-fit h-fit btn btn-ghost text-xs">
-    <a href="/"><img src="/images/majinet logo.png" alt="Logo"/></a>
+    <a className="w-fit h-fit btn btn-ghost text-xs">
+      <a href="/"><img src="/images/majinet logo.png" alt="Logo" /></a>
     </a>
   </div>
 
-  <div className="navbar-end ">
-  <a href="/portal"><span className="menu-text text-lg">System Portal</span></a>
+  <div className="navbar-end">
+    <a href="/portal"><span className="menu-text text-lg">System Portal</span></a>
   </div>
 </div>
 
@@ -117,16 +139,16 @@ export default function Partners(){
   </div>
 </section>
 
-    {/* Partners Section */}
-    <div className="bg-white py-24 sm:py-32">
+     {/* Partners Section */}
+     <div className="bg-white py-16 sm:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-          Our partners include:
+          Our Partners
         </h2>
-        <div className="mx-auto mt-10 grid max-w-lg grid-cols-6 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
+        <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-10 sm:max-w-md sm:grid-cols-2 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
           <a href="https://liquid.tech/">
           <img
-            className="col-span-2 max-h-24 w-full object-contain lg:col-span-1"
+            className="col-span-2 max-h-24 w-full sm:max-h-12 sm:w-full object-contain lg:col-span-1"
             src="/images/liquid.png"
             alt="Liquid Tech"
           />
