@@ -59,8 +59,8 @@ export default function Case_Study(){
     <br/>
 
 
-{/* Footer */}
-<footer className="footer p-10 bg-base-300 text-base-content">
+ {/* Footer */}
+ <footer className="footer p-10 bg-blue-900 text-zinc-950">
   <nav>
     <h6 className="footer-title">Services</h6> 
     <a href="/products"className="link link-hover">Products</a>

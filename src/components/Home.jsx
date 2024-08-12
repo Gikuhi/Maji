@@ -3,8 +3,8 @@ import { get } from '@vercel/edge-config';
 export default function Home(){
     return<>
     {/* Navbar */}
-<div className="navbar bg-base-100">
-  <div className="navbar-start">
+<div className="navbar bg-base-100 container mx-auto">
+  <div className="navbar-start flex justify-between w-full lg:w-auto">
 
     {/* Mobile Dropdown Menu */}
     <div className="dropdown lg:hidden">
@@ -31,7 +31,7 @@ export default function Home(){
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
         </svg>
       </div>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className="menu menu-horizontal p-0 space-x-4">
         <li><a href="/"><span className="menu-text">Home</span></a></li>
         <li><a href="/products"><span className="menu-text">Products</span></a></li>
         <li><a href="/solutions"><span className="menu-text">Solutions</span></a></li>
@@ -197,7 +197,7 @@ export default function Home(){
     <br/>
 
     {/* Footer */}
-    <footer className="footer p-10 bg-base-300 text-base-content">
+    <footer className="footer p-10 bg-blue-900 text-zinc-950">
   <nav>
     <h6 className="footer-title">Services</h6> 
     <a href="/products"className="link link-hover">Products</a>
