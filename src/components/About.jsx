@@ -130,7 +130,7 @@ export default function About(){
                 <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500 dark:text-gray-400" id="item-1">
                   Homes
                 </dt>
-                <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
+                <dd className="order-1 text-4xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
                   aria-describedby="item-1" id="homesCount">
                   21K+
                 </dd>
@@ -140,7 +140,7 @@ export default function About(){
                 <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500 dark:text-gray-400" id="item-1">
                   Engagements
                 </dt>
-                <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
+                <dd className="order-1 text-4xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
                   aria-describedby="item-1" id="engagementsCount">
                  100K+
                 </dd>
@@ -150,7 +150,7 @@ export default function About(){
                 <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500 dark:text-gray-400" id="item-1">
                   Business Saved
                 </dt>
-                <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
+                <dd className="order-1 text-4xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
                   aria-describedby="item-1" id="businessCount">
                   10K+
                 </dd>
@@ -160,7 +160,7 @@ export default function About(){
                 <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500 dark:text-gray-400">
                   Partners
                 </dt>
-                <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
+                <dd className="order-1 text-4xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
                   id="partnersCount">
                   8+
                 </dd>
@@ -170,7 +170,7 @@ export default function About(){
                 <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500 dark:text-gray-400">
                   Certified Instructors
                 </dt>
-                <dd className="order-1 text-5xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
+                <dd className="order-1 text-4xl font-extrabold leading-none text-indigo-600 dark:text-indigo-100"
                   id="instructorsCount">
                   1K+
                 </dd>
