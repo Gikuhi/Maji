@@ -63,8 +63,9 @@ export default function Contact(){
         <div
             className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe className="absolute inset-0 w-full h-lvh  border-none" 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8938731683415!2d36.86990007473625!3d-1.233418635570131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f172fa18989b1%3A0xcf06392b60002ba2!2sNetpaq%20Business%20Systems%20Ltd!5e0!3m2!1sen!2ske!4v1705683319752!5m2!1sen!2ske"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9021136499177!2d36.83777617375155!3d-1.2279087987603654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17f5462559d7%3A0x9f2517847437ea61!2sAstrol%20Petrol%20station%20-%20Ridgeways!5e0!3m2!1sen!2ske!4v1723455077996!5m2!1sen!2ske"
                 ></iframe>
+                
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                 <div className="lg:w-1/2 px-6">
                     <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">LOCATION</h2>
