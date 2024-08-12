@@ -2,12 +2,12 @@ import { get } from '@vercel/edge-config';
 
 export default function Home(){
     return<>
-    {/* Navbar */}
-<div className="navbar bg-base-100 container mx-auto">
-  <div className="navbar-start flex justify-between w-full lg:w-auto">
+   {/* Navbar */}
+<div className="navbar bg-base-100">
+  <div className="navbar-start">
 
-   {/* Mobile Dropdown Menu */}
-   <div className="dropdown lg:hidden">
+    {/* Mobile Dropdown Menu */}
+    <div className="dropdown lg:hidden">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" />
@@ -42,7 +42,6 @@ export default function Home(){
       </ul>
     </div>
   </div>
-
 
   <div className="navbar-center">
     <a className="w-fit h-fit btn btn-ghost text-xs">
